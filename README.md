@@ -1,6 +1,5 @@
+# 1- Install [Duster](https://github.com/tighten/duster)
 
-
-# Install [Duster](https://github.com/tighten/duster)
 ✅ الفوائد الرئيسية لـ Duster
 تحسين جودة الكود: تقوم بفحص الكود بحثًا عن الأخطاء أو التنسيقات غير المتوافقة مع المعايير، وتصلحها تلقائيًا.
 
@@ -21,9 +20,9 @@ Pint: لتطبيق قواعد Laravel الرسمية مع تعديلات Tighten
 سهولة الاستخدام: أوامر بسيطة مثل:
 
 bash
-./vendor/bin/duster lint     # لفحص الكود
-./vendor/bin/duster fix      # لإصلاح الكود
-./vendor/bin/duster lint --dirty  # لفحص الملفات المعدلة فقط
+./vendor/bin/duster lint # لفحص الكود
+./vendor/bin/duster fix # لإصلاح الكود
+./vendor/bin/duster lint --dirty # لفحص الملفات المعدلة فقط
 قابلية التخصيص: يمكنك تعديل الملفات التي يتم فحصها أو استثناؤها عبر ملف duster.json.
 
 تكامل مع GitHub Actions و Husky Hooks: لتشغيل Duster تلقائيًا أثناء عمليات الـ commit أو في CI/CD.
@@ -53,3 +52,5 @@ bash
 Customizability: You can modify which files are scanned or excluded via the duster.json file.
 
 Integration with GitHub Actions and Husky Hooks: Automatically trigger Duster during commits or in CI/CD.
+
+# 2- [How to set up Prettier On a Laravel](https://mattstauffer.com/blog/how-to-set-up-prettier-on-a-laravel-app-to-lint-tailwind-class-order-and-more/)
